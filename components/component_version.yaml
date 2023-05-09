@@ -8,5 +8,6 @@ spec:
   component: phoban.io/podinfo
   version:
     semver: "v6.2.3"
+    allowRollback: true
   repository:
     url: ghcr.io/phoban01
