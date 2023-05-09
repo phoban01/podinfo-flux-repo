@@ -13,3 +13,4 @@ spec:
     name: podinfo
     resourceRef:
       name: config
+      version: latest
