@@ -4,10 +4,10 @@ metadata:
   name: podinfo
   namespace: ocm-system
 spec:
-  interval: 10m0s
+  interval: 1m0s
   component: phoban.io/podinfo
   version:
     semver: ">=v6.2.3"
-    allowRollback: true
   repository:
-    url: ghcr.io/phoban01
+    url: ghcr.io/phoban01/air-gapped
+  serviceAccountName: air-gapped-ops
