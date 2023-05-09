@@ -8,7 +8,7 @@ spec:
     kind: Resource
     name: podinfo-deployment
   kustomizationTemplate:
-    interval: 10m0s
+    interval: 1m0s
     path: ./
     prune: true
     targetNamespace: default
