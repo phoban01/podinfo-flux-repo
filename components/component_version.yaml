@@ -7,6 +7,6 @@ spec:
   interval: 10m0s
   component: phoban.io/podinfo
   version:
-    semver: ">=v6.2.3"
+    semver: "v6.2.3"
   repository:
     url: ghcr.io/phoban01
