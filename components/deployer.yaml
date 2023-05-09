@@ -5,7 +5,7 @@ metadata:
   namespace: ocm-system
 spec:
   sourceRef:
-    kind: Localization
+    kind: Configuration
     name: podinfo-deployment
   kustomizationTemplate:
     interval: 1m0s
