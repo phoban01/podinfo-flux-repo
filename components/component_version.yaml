@@ -9,5 +9,5 @@ spec:
   version:
     semver: ">=v6.2.3"
   repository:
-    url: ghcr.io/phoban01/air-gapped
+    url: ghcr.io/phoban01
   serviceAccountName: air-gapped-ops
